@@ -57,18 +57,12 @@ void gambarGaris(void) {
 
     glColor3f(1.0, 0.0, 0.0);
     glPointSize(2.0);
-    
-    /*xAwal *= 10;
-    yAwal *= 10;
-    xEnd *= 10;
-    yEnd *= 10;
-    */
 
     garisBresenham(xAwal, yAwal, xEnd, yEnd);
 }
 
 int main(int argc, char** argv) {
-     glutInit(&argc, argv);
+    glutInit(&argc, argv);
     glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB);
     glutInitWindowSize(500, 500);
     glutInitWindowPosition(0, 0);
