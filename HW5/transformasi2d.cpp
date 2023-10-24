@@ -21,38 +21,6 @@ void aturPixel(GLint xCoordinate, GLint yCoordinate) {
     glFlush();
 }
 
-/*void garisBresenham(GLint x0, GLint y0, GLint xEnd, GLint yEnd) {
-    GLint dx = (float) fabs((float) xEnd - x0);
-    GLint dy = (float) fabs((float) yEnd - y0);
-    GLint p = 2 * dy - dx;
-    GLint twoDy = 2 * dy;
-    GLint twoDyMinusDx = 2 * (dy - dx);
-    GLint x, y;
-
-    if (x0 > xEnd) {
-        x = xEnd;
-        y = yEnd;
-        xEnd = x;
-    } else {
-        x = x0;
-        y = y0;
-    }
-
-    aturPixel(x, y);
-
-    while (x < xEnd) {
-        x++;
-        if (p < 0)
-            p += twoDy;
-        else {
-            y++;
-            p += twoDyMinusDx;
-        }
-
-        aturPixel(x, y);
-    }
-}*/
-
 void translasi (GLint x0, GLint y0, GLint x1, GLint y1)
 {
     aturPixel(x0, y0);
