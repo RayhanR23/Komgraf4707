@@ -36,10 +36,7 @@ int main()
         cin >> garis2[j];        
     }  
     cout << endl;
-    cout << y[1] <<endl;
-    cout << y[0] <<endl;
-    cout << x[1] <<endl;
-    cout << x[0] <<endl;
+    
     cout << "Region garis 1 "<<endl;
     //x1 = [0] , y1 = [1] , x2 = [2] , y2 = [3]
     //tbrl [0] = nilai region titik A , tbrl [1] = nilai region titik B , tbrl [2] = nilai region titik C , tbrl [3] = nilai region titik D
